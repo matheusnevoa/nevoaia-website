@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Fale com a NévoaIA</title>
+    <meta name="description"
+        content="Entre em contato com a NévoaIA para discutir seu projeto de automação. Fale conosco via formulário, WhatsApp ou redes sociais.">
+
+    <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo" aria-label="Página Inicial">
+                <img src="./assets/images/logo.svg" alt="Logo NévoaIA">
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html#servicos">Serviços</a></li>
+                <li><a href="index.html#projetos">Projetos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html" class="btn btn-nav">Contato</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger-btn" aria-label="Abrir menu de navegação">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-container" style="padding-top: 8rem;">
+            <div class="container">
+                <div class="text-center">
+                    <h1 class="section-title animate-on-scroll" style="font-size: 3rem;">Fale Conosco</h1>
+                    <p class="section-subtitle animate-on-scroll" data-delay="1">Tem uma pergunta ou um projeto em
+                        mente? Adoraríamos ouvir sobre isso.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="form-container animate-on-scroll" data-delay="0">
+                        <h3 class="form-title">Envie sua Mensagem</h3>
+
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" class="form-input" placeholder=" " required>
+                                <label for="name">Nome</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" class="form-input" placeholder=" " required>
+                                <label for="email">E-mail</label>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="message" name="message" class="form-input" placeholder=" "
+                                    required></textarea>
+                                <label for="message">Mensagem</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar</button>
+                        </form>
+                    </div>
+
+                    <div class="animate-on-scroll" data-delay="1">
+                        <h3 class="form-title" style="margin-bottom: 2rem; text-align: left;">Outros Canais</h3>
+                        <div class="contact-info-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <a href="https://wa.me/5511999998888" target="_blank" class="hover:text-accent">+55 (11)
+                                    99999-8888</a>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="far fa-envelope"></i>
+                            <div>
+                                <h4>E-mail</h4>
+                                <a href="mailto:contato@nevoaia.com" class="hover:text-accent">contato@nevoaia.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="#" target="_blank" class="hover:text-accent">/in/nevoaia</a>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Endereço</h4>
+                                <p>Av. Inovação, 123, São Paulo, SP - Brasil</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <p class="copyright">&copy; 2025 NévoaIA. Automação Inteligente para Negócios</p>
+            </div>
+            <div class="footer-social">
+                <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

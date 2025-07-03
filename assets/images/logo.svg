@@ -1,0 +1,12 @@
+<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M12.667 31.5l6.666-10.833L12.667 9.833 16.834 6 27.5 21.667 16.834 35.5 12.667 31.5z" fill="url(#a)"/>
+  <text x="38" y="28" font-family="Poppins, sans-serif" font-size="20" font-weight="600" fill="#f0f2f5">
+    NévoaIA
+  </text>
+  <defs>
+    <linearGradient id="a" x1="12.667" y1="6" x2="27.5" y2="35.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EB4C89"/>
+      <stop offset="1" stop-color="#d43b74"/>
+    </linearGradient>
+  </defs>
+</svg>
